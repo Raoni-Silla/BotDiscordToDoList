@@ -1,5 +1,7 @@
-package br.com.raoni.BotDiscordToDoList.model;
+package br.com.raoni.BotDiscordToDoList.Controller;
 
+import br.com.raoni.BotDiscordToDoList.model.Task;
+import br.com.raoni.BotDiscordToDoList.service.TaskService;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import org.jetbrains.annotations.NotNull;

@@ -1,6 +1,5 @@
 package br.com.raoni.BotDiscordToDoList.Controller;
 
-import br.com.raoni.BotDiscordToDoList.model.BotListener;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.requests.GatewayIntent;

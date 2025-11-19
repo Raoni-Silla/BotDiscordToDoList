@@ -1,5 +1,6 @@
-package br.com.raoni.BotDiscordToDoList.model;
+package br.com.raoni.BotDiscordToDoList.service;
 
+import br.com.raoni.BotDiscordToDoList.model.Task;
 import br.com.raoni.BotDiscordToDoList.repositories.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,7 @@ public class TaskService {
     @Autowired
     TaskRepository taskRepository;
 
-    public Task createTask (String description,String userID){
+    public Task createTask (String description, String userID){
 
         Task task = new Task();
         task.setDescription(description);
